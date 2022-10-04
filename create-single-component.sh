@@ -40,4 +40,5 @@ if [ -z "${COMPONENT}" ]; then
   echo "Input component is needed"
   exit 1
 fi
+
 create_ec2
